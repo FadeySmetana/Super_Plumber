@@ -1,0 +1,7 @@
+import pygame
+import main
+
+def main():
+    pygame.init()
+    pygame.draw.rect(main.screen, (255 200 168), (100, 100, 100, 100), 0)
+    pygame.display.update()
